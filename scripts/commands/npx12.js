@@ -26,7 +26,7 @@ const media = (
 
 	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
 		var msg = {
-				body: "🍁মানুষ কখনো কাউকে ভুলে না ।হয়তো দুরত্ব বারে গুরুত্ব কমে🍁",
+				body: "🍁 মানুষ মৃত্যুর আগ পর্যন্ত কাউকে ভুলতে পারেনা🍁",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
