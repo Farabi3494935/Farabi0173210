@@ -19,12 +19,12 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/zBIHf7f.mp4',
+      '"https://i.imgur.com/h93nobS.jpeg",',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("gf")==0 || body.indexOf("bow")==0 || body.indexOf("farabi")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("🤦🏻")==0 || body.indexOf("baby")==0 || body.indexOf("sona")==0) {
+	if (body.indexOf("assalamu alaikum")==0 || body.indexOf("assamulaikum")==0 || body.indexOf("আসসালামুআলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("আসসালামুআলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0 || body.indexOf("আসসালামু আলাইকুম")==0) {
 		var msg = {
 				body: "🍁 মানুষ মৃত্যুর আগ পর্যন্ত কাউকে ভুলতে পারেনা🍁",
 				attachment: media
