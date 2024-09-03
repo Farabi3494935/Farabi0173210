@@ -26,7 +26,7 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("valo")==0 || body.indexOf("🫢")==0 || body.indexOf("🤭")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("valo")==0 || body.indexOf("😆")==0 || body.indexOf("😔")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "🍁তোমাকে না হয় হেসে হেসে মুক্তি দিবো🍁",
 				attachment: media
