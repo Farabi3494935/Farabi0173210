@@ -24,15 +24,15 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("😑")==0 || body.indexOf("😐")==0 || body.indexOf("🤨")==0 || body.indexOf("😴")==0 || body.indexOf("good night")==0 || body.indexOf("good morning")==0 || body.indexOf("bye")==0 || body.indexOf("😘")==0 || body.indexOf("😘")==0 || body.indexOf("gd n8")==0) {
+	if (body.indexOf("😅")==0 || body.indexOf("😓")==0) {
 		var msg = {
-				body: "❤️‍🔥💥 FARABI 💥❤️‍🔥"
+				body: "হুমায়ূন আহমেদ ",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🥵", event.messageID, (err) => {}, true)
+    api.setMessageReaction("💔", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
   }
-}..
+} 
